@@ -1,0 +1,404 @@
+/*===============================================      INDEX Page     ===================================================*/
+
+body {
+    background: url("../img/background2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #2338a7;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #fff;
+}
+
+li {
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+/* SOCIALS MEDIA */
+
+ul.social {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0px;
+
+    /*padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*  li a:hover,
+  li a:focus,
+  li a:active {}*/
+}
+
+ul.social li {
+    width: 46px;
+    margin-right: 3px;
+}
+
+ul.social li:last-child {
+    margin-right: 0;
+}
+
+ul.social li img {
+    width: 26px;
+}
+
+ul.social li:hover img {
+    width: 40px;
+    margin-top: -10px;
+}
+
+.home-container {
+    margin: 0 auto 0 auto;
+    /*width: 60vw;*/
+    width: 80%;
+    text-align: center;
+    background: rgba(20, 20, 20, 0.7);
+}
+
+.home-container .logo {
+    font-size: 30px;
+    /*text-transform: uppercase;*/
+    font-weight: lighter;
+    color: #efefef;
+    border-top-width: 5px;
+    border-color: #efefef;
+    border-radius: 0px;
+}
+
+.home-container .count-block .infos {
+    margin: 8vh 5vh;
+    text-align: justify-all;
+    color: #efefef;
+    font-size: 14px;
+}
+
+.home-container h2 {
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    /*margin-bottom: 30px;*/
+}
+
+.home-container p {
+    text-align: justify-all;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.home-container .count-block {
+    /*height: 360px;
+    width: 720px;*/
+    padding: 20px;
+    background-color: rgba(00, 00, 00, 0.80);
+    border-radius: 0px;
+}
+
+.boxed_item {
+    font-family: 'Open Sans';
+    font-weight: 200;
+    padding: 10px 20px;
+    display: inline-block;
+    border: solid 2px #333333;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer {
+    height: 14vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ededed;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 3vh;
+    letter-spacing: 2px;
+}
+
+#clockdiv {
+    display: inline-flex;
+    height: 115px;
+    /*padding-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 110px;*/
+    margin: auto;
+    color: #fff;
+}
+
+#clockdiv .block:first-child {
+    padding-left: 0px;
+}
+
+
+
+/*#clockdiv .block span {
+    color: #efefef;
+    font-size: 52px;
+    font-weight: lighter;
+}*/
+
+#clockdiv .slash {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-left: 60px;
+    text-align: justify-all;
+}
+
+#clockdiv .block .days {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 1px;
+    text-align: justify-all;
+}
+
+#clockdiv .block .hours {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+#clockdiv .block .minutes {
+    margin: auto;
+    color: #efefef;
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+#clockdiv .block .seconds {
+    margin: auto;
+    color: #efefef;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+#clockdiv .block:first-child {
+    padding-left: 0px;
+}
+
+
+
+/*#clockdiv .block span {
+    color: #efefef;
+    font-size: 52px;
+    font-weight: lighter;
+}*/
+
+#clockdiv .slash {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-left: 60px;
+    text-align: justify-all;
+}
+
+#clockdiv .block .days {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 1px;
+    text-align: justify-all;
+}
+
+#clockdiv .block .hours {
+    margin: auto;
+    color: #efefef;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+#clockdiv .block .minutes {
+    margin: auto;
+    color: #efefef;
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+#clockdiv .block .seconds {
+    margin: auto;
+    color: #efefef;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.contact-form {
+    display: flex;
+    height: 60px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+input[type="email" i] {
+    padding: 0 24px;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+    border: none;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: #47317b;
+}
+
+.read-more {
+    background-color: #332457;
+    position: absolute;
+    top: 40vh;
+    line-height: 60px;
+    /*text-align: center;*/
+    border-radius: 60px 0px 00px 60px;
+    cursor: pointer;
+    right: -118px;
+}
+
+.read-more span {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+}
+
+.read-more:hover {
+    right: 0px;
+    transition: all .3s ease-in-out;
+}
+
+.read-more:focus,
+.read-more:active {
+    background-color: #47317b;
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    #clockdiv .smalltext {
+        font-size: 12px;
+    }
+    #clockdiv .slash {
+        margin-left: 40px;
+    }
+    #clockdiv .block .days,
+    #clockdiv .block .hours {
+        font-size: 80px;
+    }
+    #clockdiv .block .minutes {
+        font-size: 50px;
+    }
+    #clockdiv .block .seconds {
+        font-size: 30px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {    
+    .home-container h2 {
+        font-size: 16px;
+    }
+    .home-container p {
+        font-size: 12px;
+    }
+    .home-container .logo {
+        font-size: 24px;
+    }
+    #clockdiv .slash {
+        margin-left: 12px;
+        font-size: 60px;
+    }
+    #clockdiv .block .days,
+    #clockdiv .block .hours {
+        font-size: 50px;
+    }
+    #clockdiv .block .minutes {
+        font-size: 34px;
+    }
+    #clockdiv .block .seconds {
+        font-size: 24px;
+    }
+    input[type="email" i] {
+        padding: 0 12px;
+        font-size: 12px;
+    }
+    button {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+    .contact-form{
+        height: 50px;
+    }
+    .footer h3 {
+        font-size: 14px;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
